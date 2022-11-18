@@ -9,13 +9,44 @@
 </head>
 <body>
     <div class="content">
-         <div class="side-image"></div>
+        <div class="side-image">
             <div class="side-logo">
                 <img src="assets/sign-up-form.png">
                 <h2>O d i n</h2>
             </div>
-            
+        </div>
+        <div class="sign-up-container">
+            <div class="sign-up-header">
+                <h3>This is header text BLAH BLAH</h3>
+            </div>
+            <div class="sign-up-inputs">
+                <fieldset>
+                    <legend> Input info for registration!</legend>
+                <form action="example.com/path" method="post">
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name">
+                    <label for="user_email">email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="number" id="phone_number">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" id="confirm_password">
+                    <input type="checkbox" id="tos_confirm" name="tosConfirm">
+                    <label for="tos_confirm">Do you Agree to our Terms of service?</label>
+                </form>
+                </fieldset>
+            </div>
+            <div class="sign-up-buttons">
+                <button type="submit">Sign Up!</button>
+                <button type="reset">Reset Form</button>
+            </div>
+        </div>
         </div>
     </div>
+
 </body>
 </html>

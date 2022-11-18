@@ -3,34 +3,50 @@
     src: url("/assets/Fonts/DeathStar-VmWB.ttf");
 }
 
+/* This is for the side portion */
+
 .content {
-    width: 100vw;
+    display: flex;
     height: 100vh;
+    width: 100vw;
     position: relative;
     font-family: DeathStarFont;
     color: white;
     font-size: 35px;
+    margin: none;
 }
 
 .side-logo, .side-image {
     position: absolute;
     align-items: center;
+    width: fit-content;
+    height: fit-content;
 }
 
 .side-logo{
-    width: 50vw;
+    width: 30vw;
     background: rgba(0,0,0,.4);
     display: flex;
     top: 20%;
+    justify-content: center;
 }
 
 .side-logo img{
-    max-width: 20%;
+    max-width: 15%;
 }
 
 .side-image {
-    width: 50vw;
+    display: flex;
+    justify-content: left;
+    width: 30vw;
     height: 100vh;
     background-image: url(assets/halie-west-bTzpau9mKT4-unsplash.jpg);
 }
 
+.sign-up-container{
+    display: flex;
+    position: absolute;
+    background: rgba(0,0,0,.4);
+    width: fit-content;
+    height: fit-content;
+}
