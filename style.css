@@ -1,0 +1,36 @@
+@font-face {
+    font-family : DeathStarFont;
+    src: url("/assets/Fonts/DeathStar-VmWB.ttf");
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    font-family: DeathStarFont;
+    color: white;
+    font-size: 35px;
+}
+
+.side-logo, .side-image {
+    position: absolute;
+    align-items: center;
+}
+
+.side-logo{
+    width: 50vw;
+    background: rgba(0,0,0,.4);
+    display: flex;
+    top: 20%;
+}
+
+.side-logo img{
+    max-width: 20%;
+}
+
+.side-image {
+    width: 50vw;
+    height: 100vh;
+    background-image: url(assets/halie-west-bTzpau9mKT4-unsplash.jpg);
+}
+
