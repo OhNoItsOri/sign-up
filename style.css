@@ -1,6 +1,4 @@
-@font-face {
-    font-family : Nimbus Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+
 
 /* This is for the side portion */
 
@@ -46,12 +44,14 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background: rgba(0,0,0,.3);
+    background: grey;
 
 }
 
 .sign-up-header, .sign-up-inputs, .sign-up-buttons {
-    background: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
     width: 70vw;
 }
 
