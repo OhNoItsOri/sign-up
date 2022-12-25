@@ -44,7 +44,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background: grey;
+    background: white;
 
 }
 
@@ -61,3 +61,11 @@ fieldset {
     font-size: 20px;
 }
 
+.btn {
+    border-radius: 8px;
+    border-color: rgb(5, 126, 75);
+    background: rgba(2, 189, 117, 0.527);
+    color: black;
+    width: 90px;
+    height: 45px;
+}
